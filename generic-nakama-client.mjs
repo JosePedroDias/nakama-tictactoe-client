@@ -2,33 +2,14 @@ import {
   Client,
 } from "https://cdn.jsdelivr.net/npm/@heroiclabs/nakama-js@2.8.0/+esm";
 import { getOpcodeName } from './messages.mjs';
+import { HOST, PORT, SECURE, SERVER_KEY } from './config-local.mjs';
+//import { HOST, PORT, SECURE, SERVER_KEY } from './config-playrealm.mjs';
 
 const td = new TextDecoder();
 
 const LOG_IO = false;
 
-/*
-const HOST = "localhost";
-const PORT = "7350";
-const SECURE = false;
-const SERVER_KEY = "defaultkey";
-*/
-
-const HOST = "playrealm.net";
-const PORT = "443";
-const SECURE = true;
-const SERVER_KEY = "lounck";
-
 export class GenericNakamaClient {
-  //this.onMatchReceive(op, data)
-  //this.matchSend(op, data)
-  //this.matchRpc
-
-  //this.client
-  //this.session
-  //this.socket
-  //this.match
-
   constructor() {
     this.client = new Client(SERVER_KEY, HOST, PORT, SECURE);
   }
