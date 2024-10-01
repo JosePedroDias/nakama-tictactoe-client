@@ -1,5 +1,7 @@
 # simple tictactoe nakama client in vanilla js
 
+You can find the server counterpart to this here: https://github.com/JosePedroDias/nakama-tictactoe
+
 ## reference nakama docs
 
 - https://heroiclabs.com/docs/nakama/client-libraries/javascript/
