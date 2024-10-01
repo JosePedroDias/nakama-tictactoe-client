@@ -2,8 +2,8 @@ import {
   Client,
 } from "https://cdn.jsdelivr.net/npm/@heroiclabs/nakama-js@2.8.0/+esm";
 import { getOpcodeName } from './messages.mjs';
-import { HOST, PORT, SECURE, SERVER_KEY } from './config-local.mjs';
-//import { HOST, PORT, SECURE, SERVER_KEY } from './config-playrealm.mjs';
+//import { HOST, PORT, SECURE, SERVER_KEY } from './config-local.mjs';
+import { HOST, PORT, SECURE, SERVER_KEY } from './config-playrealm.mjs';
 
 const td = new TextDecoder();
 
