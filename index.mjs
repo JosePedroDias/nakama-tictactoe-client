@@ -1,5 +1,5 @@
 import { TicTacToeClient } from "./tictactoe-client.mjs";
-import { getDeviceId, getEmail, getPassword, getUsername } from "../aux.mjs";
+import { getDeviceId, getUsername } from "./misc.mjs";
 import { setup } from "./ui.mjs";
 
 (async () => {
